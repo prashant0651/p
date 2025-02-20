@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -122,3 +122,24 @@
     </footer>
 </body>
 </html>
+<section id="resume">
+    <h2>Download Resume</h2>
+    <p>Click the button below to download my resume.</p>
+    <a href="Prashant_Resume.pdf" download class="resume-btn">Download Resume</a>
+</section>
+
+<style>
+    .resume-btn {
+        display: inline-block;
+        background: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    .resume-btn:hover {
+        background: #0056b3;
+    }
+</style>
